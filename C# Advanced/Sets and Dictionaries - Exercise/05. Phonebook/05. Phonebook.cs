@@ -7,43 +7,43 @@
     {
         public static void Main()
         {
-            var enterSymbol = new string[3];
-            var input = new Dictionary<string, string>();
-            while (enterSymbol[0] != "END")
+            var input = Console.ReadLine().Split('-');
+
+            var phonebook = new Dictionary<string, string>();
+
+            while (input[0] != "search")
             {
-                enterSymbol = Console.ReadLine()
-                    .Split(' ')
-                    .ToArray();
-                if (enterSymbol[0] == "A")
+                string name = input[0];
+                string phone = input[1];
+
+                if (!phonebook.ContainsKey(name))
                 {
-                    AttachInfo(enterSymbol, input);
+                    phonebook.Add(name, phone);
                 }
-                else if (enterSymbol[0] == "S")
+                else
                 {
-                    PrintInfo(enterSymbol, input);
+                    phonebook[name] = phone;
                 }
+
+                input = Console.ReadLine().Split('-');
             }
-        }
-        public static void PrintInfo(string[] info, Dictionary<string, string> phoneBook)
-        {
-            if (phoneBook.ContainsKey(info[1]))
+
+            string input2 = Console.ReadLine();
+
+
+
+            while (input2 != "stop")
             {
-                Console.WriteLine($"{info[1]} -> {phoneBook[info[1]]}");
-            }
-            else
-            {
-                Console.WriteLine("Contact {0} does not exist.", info[1]);
-            }
-        }
-        public static void AttachInfo(string[] info, Dictionary<string, string> phoneBook)
-        {
-            if (phoneBook.Keys.Contains(info[1]))
-            {
-                phoneBook[info[1]] = info[2];
-            }
-            else
-            {
-                phoneBook.Add(info[1], info[2]);
+                if (phonebook.ContainsKey(input2))
+                {
+                    Console.WriteLine($"{input2} -> {phonebook[input2]}");
+                }
+                else
+                {
+                    Console.WriteLine($"Contact {input2} does not exist.");
+                }
+
+                input2 = Console.ReadLine();
             }
         }
     }

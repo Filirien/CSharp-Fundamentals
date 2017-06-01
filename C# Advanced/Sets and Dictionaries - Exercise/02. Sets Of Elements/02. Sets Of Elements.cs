@@ -3,30 +3,31 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
     public class Program
     {
         public static void Main()
         {
-            var input = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            var set = new HashSet<int>();
-            var n = input[0];
-            var m = input[1];
+            var arr = Console.ReadLine().Trim().Split(' ').Select(int.Parse).ToArray();
+            
+            var n = arr[0];
+            var m = arr[1];
+
+            var nSet = new HashSet<int>();
+            var mSet = new HashSet<int>();
+
             for (int i = 0; i < n; i++)
             {
-                var line =int.Parse(Console.ReadLine());
-                set.Add(line);
+                nSet.Add(int.Parse(Console.ReadLine()));
             }
+
             for (int i = 0; i < m; i++)
             {
-                var line = int.Parse(Console.ReadLine());
-                set.Add(line);
+                mSet.Add(int.Parse(Console.ReadLine()));
             }
-            foreach (var item in set)
-            {
-                Console.WriteLine(item);
-            }
+
+            var result = nSet.Intersect(mSet);
+
+            Console.WriteLine(string.Join(" ", result));
         }
     }
 }
