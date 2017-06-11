@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95BC7F97-8AB8-4E1F-80FA-11AE883408CC}</ProjectGuid>
+    <ProjectGuid>{C76AC3AF-2821-40B4-B5FC-6C4C53053E4E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MelrahShake</RootNamespace>
-    <AssemblyName>MelrahShake</AssemblyName>
+    <RootNamespace>ConvertFromBaseNToBase10</RootNamespace>
+    <AssemblyName>ConvertFromBaseNToBase10</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

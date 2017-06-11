@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5A76D3C0-1A0A-4874-A120-DA9A8CF6C3BE}</ProjectGuid>
+    <ProjectGuid>{C9965C59-5D0B-4B85-800C-9FDFEB09848E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FilterText</RootNamespace>
-    <AssemblyName>FilterText</AssemblyName>
+    <RootNamespace>UnicodeCharacters</RootNamespace>
+    <AssemblyName>UnicodeCharacters</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

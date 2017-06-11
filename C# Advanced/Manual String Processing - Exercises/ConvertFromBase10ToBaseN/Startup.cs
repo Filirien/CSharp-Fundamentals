@@ -4,9 +4,9 @@
     using System.Numerics;
     using System.Text;
 
-    class Startup
+    public class Startup
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             string[] inputArgs = Console.ReadLine().Split();
             int targetBase = int.Parse(inputArgs[0]);

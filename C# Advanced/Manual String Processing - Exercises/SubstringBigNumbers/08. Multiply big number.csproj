@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{26BA1226-9D44-4923-B782-78AD079608AB}</ProjectGuid>
+    <ProjectGuid>{2CCCD9AE-7BAF-4976-9BB4-BAD4F1FD5C09}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ExtractHyperlinks</RootNamespace>
-    <AssemblyName>ExtractHyperlinks</AssemblyName>
+    <RootNamespace>SubstringBigNumbers</RootNamespace>
+    <AssemblyName>SubstringBigNumbers</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

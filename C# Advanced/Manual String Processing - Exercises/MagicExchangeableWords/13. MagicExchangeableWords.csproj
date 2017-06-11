@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2CCCD9AE-7BAF-4976-9BB4-BAD4F1FD5C09}</ProjectGuid>
+    <ProjectGuid>{C7CB1075-8946-4720-8A9B-3F6B05B441C1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SubstringBigNumbers</RootNamespace>
-    <AssemblyName>SubstringBigNumbers</AssemblyName>
+    <RootNamespace>MagicExchangeableWords</RootNamespace>
+    <AssemblyName>MagicExchangeableWords</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

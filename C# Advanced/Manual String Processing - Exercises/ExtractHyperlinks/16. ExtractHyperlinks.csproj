@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D86D7F73-A735-4D48-8B4D-25F54FC5EB94}</ProjectGuid>
+    <ProjectGuid>{26BA1226-9D44-4923-B782-78AD079608AB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Palindromes</RootNamespace>
-    <AssemblyName>Palindromes</AssemblyName>
+    <RootNamespace>ExtractHyperlinks</RootNamespace>
+    <AssemblyName>ExtractHyperlinks</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

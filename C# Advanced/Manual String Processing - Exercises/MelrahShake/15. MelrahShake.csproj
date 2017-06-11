@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C7CB1075-8946-4720-8A9B-3F6B05B441C1}</ProjectGuid>
+    <ProjectGuid>{95BC7F97-8AB8-4E1F-80FA-11AE883408CC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MagicExchangeableWords</RootNamespace>
-    <AssemblyName>MagicExchangeableWords</AssemblyName>
+    <RootNamespace>MelrahShake</RootNamespace>
+    <AssemblyName>MelrahShake</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
