@@ -7,36 +7,30 @@
     {
         public static void Main()
         {
-            var line = Console.ReadLine();
-            var dif = Console.ReadLine();
-            Func<string, string, List<int>> nums = EvenOrOdd;
-            var result = nums(line, dif);
-            foreach (var item in result)
+            var input = Console.ReadLine()
+                 .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                 .Select(int.Parse)
+                 .ToArray();
+            var keyWord = Console.ReadLine();
+            var startNumber = input[0];
+            var endNumber = input[1];
+            var numbers = new List<int>();
+            for (int i = startNumber; i <= endNumber; i++)
             {
-                Console.Write($"{item} ");
+                numbers.Add(i);
             }
-            Console.WriteLine();
-        }
-
-        private static List<int> EvenOrOdd(string numbers, string isEven)
-        {
-            var result = numbers.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();
-            var a = new List<int>();
-
-            for (int i = result[0]; i <= result[1]; i += 2)
+            Predicate<int> oddFinder = x => x % 2 != 0;
+            Predicate<int> evenFinder = x => x % 2 != 1;
+            List<int> result = new List<int>();
+            if (keyWord == "odd")
             {
-                a.Add(i);
+                result = numbers.FindAll(oddFinder);
             }
-            if (isEven == "even")
+            else
             {
-                a.Select(s => s % 2 == 0);
+                result = numbers.FindAll(evenFinder);
             }
-            else if (isEven == "odd")
-            {
-                a.Select(s => s % 2 == 1);
-            }
-
-            return a;
+            Console.WriteLine(string.Join(" ", result));
         }
     }
 }

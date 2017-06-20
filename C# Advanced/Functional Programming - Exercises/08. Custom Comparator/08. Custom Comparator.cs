@@ -6,15 +6,34 @@
     {
         public static void Main()
         {
-            var nums = Console.ReadLine()
-                .Split(new[] { ' ' },
-                StringSplitOptions.RemoveEmptyEntries)
+            var numbers = Console.ReadLine()
+                .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
-                .ToList();
-            var eveNums = nums.Where(a => a % 2 == 0).OrderBy(a => a).ToList();
-            var oddNegNums = nums.Where(a => a % 2 == -1).OrderBy(a => a).ToList();
-            var oddNums = nums.Where(a => a % 2 == 1).OrderBy(a => a).ToList();
-            Console.WriteLine(string.Join(" ", eveNums).Trim() + " " + string.Join(" ", oddNegNums).Trim() + " " + string.Join(" ", oddNums).Trim());
+                .ToArray();
+
+            Array.Sort(numbers, (x, y) =>
+            {
+                if (x % 2 == 0 && y % 2 != 0)
+                {
+                    return -1;
+                }
+                if (x % 2 != 0 && y % 2 == 0)
+                {
+                    return 1;
+                }
+                if (x > y)
+                {
+                    return 1;
+                }
+                if (x < y)
+                {
+                    return -1;
+                }
+                return 0;
+            });
+
+            Console.Write(string.Join(" ", numbers));
+            Console.WriteLine();
         }
     }
 }
