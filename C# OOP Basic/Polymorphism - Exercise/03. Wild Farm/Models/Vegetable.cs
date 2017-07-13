@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Program
+public class Vegetable : Food
 {
-    public static void Main()
+    public Vegetable(int quantityFood) 
+        : base(quantityFood)
     {
-
     }
 }

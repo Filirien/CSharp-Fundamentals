@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("03. Wild Farm")]
+[assembly: AssemblyTitle("Mordor's Cruelty Plan")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("03. Wild Farm")]
+[assembly: AssemblyProduct("Mordor's Cruelty Plan")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0618481d-a2d9-40bf-9d76-234c498a4611")]
+[assembly: Guid("8a89e309-0ea0-4ee5-8bff-c31dc4ead4ce")]
 
 // Version information for an assembly consists of the following four values:
 //
