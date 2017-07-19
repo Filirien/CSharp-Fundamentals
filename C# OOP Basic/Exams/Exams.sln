@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mordor's Cruelty Plan", "Mordor's Cruelty Plan\Mordor's Cruelty Plan.csproj", "{8A89E309-0EA0-4EE5-8BFF-C31DC4EAD4CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFS", "NFS\NFS.csproj", "{16792BFB-E799-490C-BABF-08C0BAC9D10B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minecraft", "Minecraft\Minecraft.csproj", "{F4017A47-F940-4CA5-A1CF-13F3CD7C5514}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8A89E309-0EA0-4EE5-8BFF-C31DC4EAD4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A89E309-0EA0-4EE5-8BFF-C31DC4EAD4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A89E309-0EA0-4EE5-8BFF-C31DC4EAD4CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16792BFB-E799-490C-BABF-08C0BAC9D10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16792BFB-E799-490C-BABF-08C0BAC9D10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16792BFB-E799-490C-BABF-08C0BAC9D10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16792BFB-E799-490C-BABF-08C0BAC9D10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4017A47-F940-4CA5-A1CF-13F3CD7C5514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4017A47-F940-4CA5-A1CF-13F3CD7C5514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4017A47-F940-4CA5-A1CF-13F3CD7C5514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4017A47-F940-4CA5-A1CF-13F3CD7C5514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
