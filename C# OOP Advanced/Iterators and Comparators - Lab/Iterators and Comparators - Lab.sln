@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Library", "01. Library\01. Library.csproj", "{7C6A35B4-C84B-48B3-9060-706DDD6DCA07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. LibraryIterator", "02. LibraryIterator\02. LibraryIterator.csproj", "{4F8FD158-8D64-49AC-9860-050FA08D4BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. ComparableBook", "03. ComparableBook\03. ComparableBook.csproj", "{70930D8B-BD71-4DD7-85ED-5E284EB29113}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C6A35B4-C84B-48B3-9060-706DDD6DCA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6A35B4-C84B-48B3-9060-706DDD6DCA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6A35B4-C84B-48B3-9060-706DDD6DCA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6A35B4-C84B-48B3-9060-706DDD6DCA07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8FD158-8D64-49AC-9860-050FA08D4BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8FD158-8D64-49AC-9860-050FA08D4BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8FD158-8D64-49AC-9860-050FA08D4BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8FD158-8D64-49AC-9860-050FA08D4BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70930D8B-BD71-4DD7-85ED-5E284EB29113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70930D8B-BD71-4DD7-85ED-5E284EB29113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70930D8B-BD71-4DD7-85ED-5E284EB29113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70930D8B-BD71-4DD7-85ED-5E284EB29113}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
